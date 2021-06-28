@@ -1,0 +1,68 @@
+.box {
+    background-color:#dddddd;
+    border-radius: 6px;
+    padding: 6px 6px 12px;
+}
+
+.box h2 {
+    font-size: 1.0rem;
+    border-bottom: 1px #b8b8b8 solid;
+    padding: 4px 0 10px 0;
+    color: #4b4b4b;
+    margin-bottom:0;
+}
+
+.players{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.players li {
+    border-bottom: 2px dashed #7e7e7e;
+    padding: 9px 0 4px 0;
+    font-size:0.7rem;
+}
+
+.players li .one {
+    display:inline-block;
+}
+
+.players li .name {
+    display: inline;
+    vertical-align: top;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.players li img {
+    margin-top:18px;
+}
+
+#editor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.code {
+    border-radius: 8px;
+}
+
+.code > div {
+    overflow: hidden !important;
+}
+
+.theme {
+    float:right;
+    font-size:0.9rem;
+}
+.theme .form-control {
+    width: inherit;
+    display:inline-block;
+    padding:1px 6px;
+    height:inherit;
+    font-size:0.9rem;
+}

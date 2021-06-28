@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Code Racer</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!--Custom style-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="#">Code Racer</a>
+</nav>
+
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-xl-12 box">
+            <h2 id="status">Get ready to race!</h2>
+            <ul class="players"></ul>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:1rem">
+        <div class="col-xl-12 box" style="height:600px;">
+            <div tabindex="-1" id="editor" class="code"></div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:1rem">
+        <div class="col-xl-12" style="padding:0">
+            <div class="form-group theme">
+                <label>Theme : </label>
+                <select class="form-control" id="themelist"></select>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!--Core-->
+<script src="js/require.js" data-main="js/core.js" type="text/javascript"></script>
+
+</body>
+</html>
